@@ -91,6 +91,7 @@
   
   
   app.get("/todos", (req, res) => {
+    console.log(todos);
     res.json(todos)
   })
   
